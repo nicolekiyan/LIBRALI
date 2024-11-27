@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "league";
+    src: url("font/LeagueGothic-Regular-VariableFont_wdth.ttf"),   
+}
+
+.imagemCrianca {
+    background-image: url(img/fundo.png);
+    height: 640px;
+}
+.tituloArtigo {
+    color: white;
+    font-family:"league";
+    font-size: 65px;
+    margin-left: 60px;
+    padding-top: 230px;
+    font-weight: 300;
+}
+.subtituloArtigo {
+    color: white;
+    font-family:"league";
+    font-size: 35px;
+    margin-left: 60px;
+    padding-top: 30px;
+}
