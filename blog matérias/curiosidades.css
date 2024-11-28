@@ -91,6 +91,8 @@
 .curiosidades-estilo h2 {
     margin-bottom: 40px;
     font-size: 2rem;
+   text-shadow: white;
+   box-shadow: white;
 }
 
 .galeria-curiosidades {
@@ -177,3 +179,13 @@ img {
     background-size:cover;
 }
 
+.texto-lista{
+    background-color: #426CC2;
+text-decoration-color: white;
+}
+.coluna-lista, h3{
+    color: white;
+}
+.coluna-texto  {
+    color: white;
+}
