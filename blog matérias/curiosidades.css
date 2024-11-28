@@ -8,6 +8,37 @@
     src: url("font/LeagueGothic-Regular-VariableFont_wdth.ttf"),   
 }
 
+@font-face {
+    font-family: light;
+    src: url(font/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: "Fonte texto";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Fonte titulo";
+    src: url(font/Inter_18pt-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Fonte titulo2";
+    src: url(font/CreatoDisplay-Black.otf);
+}
+
+@font-face {
+    font-family: "Fonte titulo3";
+    src: url(font/CreatoDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: "Fonte";
+  src: url(font/Barcelony.ttf);
+}
+
 .imagemCrianca {
     background-image: url(img/fundo.png);
     height: 640px;
@@ -22,8 +53,127 @@
 }
 .subtituloArtigo {
     color: white;
-    font-family:"Inter regular";
+    font-family:"Fonte texto";
     font-size: 20px;
     margin-left: 60px;
     padding-top: 15px;
 }
+.escritoPor {
+    color: white;
+    font-family:"Fonte texto";
+    font-size: 13px;
+    margin-left: 1230px;
+    padding-top: 140px;
+}
+
+/* Seção Introdução */
+.intro {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Curiosidades Estilizadas */
+.curiosidades-estilo {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.curiosidades-estilo h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.galeria-curiosidades {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-curiosidade {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-curiosidade h3 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.item-curiosidade p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.item-curiosidade:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.texto-lista {
+    padding: 60px 20px;
+    background-color: #fefefe;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.coluna {
+    flex: 1;
+    min-width: 300px;
+}
+
+.texto {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+.lista h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.lista ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1rem;
+    color: #666;
+}
+img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
