@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "league";
+    src: url("font/LeagueGothic-Regular-VariableFont_wdth.ttf"),   
+}
+
+@font-face {
+    font-family: light;
+    src: url(font/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: "Fonte texto";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Fonte titulo";
+    src: url(font/Inter_18pt-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Fonte titulo2";
+    src: url(font/CreatoDisplay-Black.otf);
+}
+
+@font-face {
+    font-family: "Fonte titulo3";
+    src: url(font/CreatoDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: "Fonte";
+  src: url(font/Barcelony.ttf);
+}
+
+.imagemFundo {
+    background-image: url(img/influencers.png);
+    height: 640px;
+}
+.tituloArtigo {
+    color: white;
+    font-family:"league";
+    font-size: 65px;
+    justify-self: center;
+    justify-content: center;
+    padding-top: 230px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.subtituloArtigo {
+    color: white;
+    font-family:"Fonte texto";
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.escritoPor {
+    color: white;
+    font-family:"Fonte texto";
+    font-size: 13px;
+    margin-left: 1230px;
+    padding-top: 140px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
