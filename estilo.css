@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Contêiner do caminho */
+.caminho {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Mão que vai se mover */
+.mao {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    background-image: url('oi.png');
+    background-size: cover;
+    transform-origin: center;
+    animation: movimentoOii 2s infinite ease-in-out;
+}
+
+/* Animação de movimento em semicirculo */
+@keyframes movimentoOii {
+    0% {
+        transform: translate(-100%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(0, -100%) rotate(180deg);
+    }
+    100% {
+        transform: translate(100%, -50%) rotate(360deg);
+    }
+}

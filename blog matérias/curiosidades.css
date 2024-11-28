@@ -153,39 +153,16 @@
     font-style: italic;
     color: #555;
 }
-
-.lista h3 {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #333;
-    text-transform: uppercase;
+.coluna-texto p{
+    font-size: 40px;
+    font-family: "league";
 }
-
-.lista ul {
-    list-style-type: none;
-    padding-left: 0;
+.p.TextoDialeto {
+    font-family: "Fonte texto";
 }
-
-.lista ul li {
-    margin-bottom: 10px;
-    padding-left: 25px;
-    position: relative;
-    font-size: 1rem;
-    color: #666;
+#dialeto{
+    margin-left: 70px;
 }
-img {
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
-.texto-lista{
-    background-color: #426CC2;
-text-decoration-color: white;
-}
-.coluna-lista, h3{
-    color: white;
-}
-.coluna-texto  {
-    color: white;
+#reg{
+    margin-right: 300px;
 }
