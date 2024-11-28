@@ -131,7 +131,7 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
-.textinho{
+.textinho, .textoeduc {
     padding: 5px 20px;
     text-align: center;
     max-width: 1050px;
@@ -139,9 +139,33 @@
     font-size: 1.2rem;
     line-height: 1.8;
     text-align: justify;
+    margin-bottom: 40px;
+    font-family: "Fonte texto";
 }
 
 
+
+
+img {
+  align-self: center;
+  justify-content: center;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+
+.culturaeduc{
+  align-items: center;
+  justify-items: center
+}
+
+.titulo1, .ceT{
+  align-self: center;
+  justify-self: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Fonte texto";
+}
 
 
 footer {
@@ -308,4 +332,12 @@ footer {
     background-color: #081446;
     height: 60px;
     width: 100%;
+  }
+
+  .ceT {
+    margin-top: 20px;
+  }
+
+  img{
+    margin-top: 20px;
   }
